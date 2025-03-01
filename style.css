@@ -107,10 +107,15 @@ h2 {
 
 .cat-info {
     width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 .cat-image-text {
     color: #616161;
+    text-align: center;
 }
 
 
