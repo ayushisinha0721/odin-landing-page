@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(215, 28%, 17%);
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+
+/* section one styling */
+
+.sec-one {
+    background-color: #1f2937;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 90px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.sec-one-left-top {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sec-one-left-bottom {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 6px 22px;
+    color: white;
+    font-weight: 700;
+}
+
+.sec-one-cat {
+    width: 350px;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+/* section two styling */
+
+.sec-two {
+    padding: 25px 60px 110px 60px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sec-two-cat {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.cat-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.cat-info {
+    width: 150px;
+}
+
+.cat-image-text {
+    color: #616161;
+}
+
+
+/* section three styling */
+
+.sec-three {
+    background-color: #e5e7eb;
+    padding: 100px 150px 80px 150px;
+}
+
+.sec-three-up {
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sec-three-down {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+    color: #1f2937;
+}
+
+
+/* section four styling */
+
+.sec-four {
+    background-color: #3882f6;
+    color: white;
+    margin: 110px;
+    border-radius: 4px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-four .sign-up{
+    border: 2px solid white;
+}
+
+
+/* footer styling */
+
+.footer {
+    background-color: hsl(215, 28%, 17%);
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
